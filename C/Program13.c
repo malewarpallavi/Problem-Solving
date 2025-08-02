@@ -1,0 +1,40 @@
+/////////////////////////////////////////////////////////////////////////
+//                                                                     //
+//  File name :     Program13.c                                        //
+//  Description :   Used to Display Factors of given number            //
+//  Author :        Pallavi Omprakash Malewar                          //
+//  Date :          28/04/2025                                         //
+//                                                                     //
+/////////////////////////////////////////////////////////////////////////
+
+
+#include<stdio.h>
+
+void DisplayFactors(int iNo)
+{
+    int iCount = 0;
+
+    for(iCount = 1 ; iCount <= iNo ; iCount++)
+    {
+        if((iNo % iCount) == 0)
+        {
+            printf("%d\n" , iCount);
+        }
+    }
+    
+}
+
+int main()
+{
+    int iValue = 0;
+    int iRet = 0;
+
+    printf("Enter Number to display factors : ");
+    scanf("%d" , &iValue);
+
+    DisplayFactors(iValue);
+    
+    return 0;
+}
+
+// Time Complexity O(N)
