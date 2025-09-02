@@ -1,1 +1,0 @@
-1. *ptr can be written as ptr[]
