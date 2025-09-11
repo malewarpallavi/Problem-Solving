@@ -1,36 +1,31 @@
 ///////////////////////////////////////////////////////////
 //                                                       //
-//  File name :     Program01.cpp                        //
+//  File name :     Program03.cpp                        //
 //  Description :   Used to do Addition of two numbers   //
 //  Author :        Pallavi Omprakash Malewar            //
 //  Date :          05/09/2025                           //
 //                                                       //
 ///////////////////////////////////////////////////////////
 
+// Generic Program
 
 #include<iostream>
 using namespace std;
 
-int Addition(int No1, int No2)
+template<class T>
+
+T Addition(T No1, T No2)
 {
-    int Ans;
+    T Ans;
     Ans = No1 + No2;
     return Ans;
 }
 
 int main()
 {
-    int Ret, Value1, Value2;
-
-    cout<<"Enter first number : \n";
-    cin>>Value1;
-
-    cout<<"Enter second number : \n";
-    cin>>Value2;
-    
-    Ret = Addition(Value1,Value2);
-
-    cout<<"Addition is : "<<Ret<<"\n";
+    cout<<Addition(10, 11)<<"\n";
+    cout<<Addition(10.90f, 11.70f)<<"\n";
+    cout<<Addition(10.23, 11.23)<<"\n";
 
     return 0;
 }
