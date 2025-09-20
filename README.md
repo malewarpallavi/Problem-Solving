@@ -1,10 +1,7 @@
-# Problem-Solving
-This is my first Git Repository.
-<br>
-Author - Pallavi Malewar
-
-
 # Problem-Solving Repository
+
+This is my first Git repository.  
+**Author:** Pallavi Malewar
 
 Welcome to my **Problem-Solving** repository! This repo is dedicated to practicing and improving my programming and problem-solving skills across multiple languages.
 
